@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/companies', 'CompaniesController@index');
+
+Route::get('/terminals', 'TerminalsController@index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
