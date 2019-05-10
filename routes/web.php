@@ -12,7 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/search', function () {
+    return view('search');
+});
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
 
 Route::get('/companies', 'CompaniesController@index');
