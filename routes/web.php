@@ -22,6 +22,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('/in', function () {
+    return view('login');
+});
+
 Route::get('/companies', 'CompaniesController@index');
 
 Route::get('/terminals', 'TerminalsController@index');
