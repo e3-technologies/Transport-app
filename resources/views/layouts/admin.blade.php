@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from codeminifier.com/live-finding-template/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:12:07 GMT -->
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -138,21 +137,16 @@
 								</div>
 								<div class="ds-avatar-caption">
 									<h4 class="ds-author-name">Daniel Duke</h4>
-									<!-- <span class="ds-author-location"><i class="ti-location-pin"></i>325 Dec Sionce, Canada</span>
-									<ul class="ds-author-info">
-										<li><span>302</span>Followers</li>
-										<li><span>115</span>Following</li>
-									</ul> -->
 								</div>
 							</div>
 							<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 								  <a class="nav-link active" id="v-pills-dashboard-tab" data-toggle="pill" href="#dashboard" role="tab" aria-controls="dashboard" aria-selected="true"><i class="ti-dashboard"></i>Dashboard</a>
-								  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="ti-user"></i>Profile</a>
-								  <!-- <a class="nav-link" id="v-pills-listings-tab" data-toggle="pill" href="#listings" role="tab" aria-controls="listings" aria-selected="false"><i class="ti-layers-alt"></i>Listings</a> -->
-								  <!-- <a class="nav-link" id="v-pills-events-tab" data-toggle="pill" href="#events" role="tab" aria-controls="events" aria-selected="false"><i class="ti-medall-alt"></i>Events</a> -->
-								  <a class="nav-link" id="v-pills-property-tab" data-toggle="pill" href="#property" role="tab" aria-controls="property" aria-selected="false"><i class="ti-home"></i>Property</a>
-								  <a class="nav-link" id="v-pills-notifications-tab" data-toggle="pill" href="#notifications" role="tab" aria-controls="notifications" aria-selected="false"><i class="ti-bell"></i>Notifications</a>
-								  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#messages" role="tab" aria-controls="messages" aria-selected="false"><i class="ti-email"></i>Messages</a>
+								  <!-- <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="ti-user"></i>Profile</a> -->
+								  <a class="nav-link" id="v-pills-terminal-tab" data-toggle="pill" href="#terminal" role="tab" aria-controls="terminal" aria-selected="false"><i class="ti-layers-alt"></i>Terminal</a>
+								  <a class="nav-link" id="v-pills-routes-tab" data-toggle="pill" href="#routes" role="tab" aria-controls="routes" aria-selected="false"><i class="ti-medall-alt"></i>Routes</a>
+								  <a class="nav-link" id="v-pills-property-tab" data-toggle="pill" href="#property" role="tab" aria-controls="property" aria-selected="false"><i class="ti-home"></i>Companies</a>
+								  <!-- <a class="nav-link" id="v-pills-notifications-tab" data-toggle="pill" href="#notifications" role="tab" aria-controls="notifications" aria-selected="false"><i class="ti-bell"></i>Notifications</a> -->
+								  <!-- <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#messages" role="tab" aria-controls="messages" aria-selected="false"><i class="ti-email"></i>Messages</a> -->
 								  <!-- <a class="nav-link" id="v-pills-billing-tab" data-toggle="pill" href="#billing" role="tab" aria-controls="billing" aria-selected="false"><i class="ti-credit-card"></i>Billing</a> -->
 								  <!-- <a class="nav-link" id="v-pills-bookmark-tab" data-toggle="pill" href="#bookmark" role="tab" aria-controls="bookmark" aria-selected="false"><i class="ti-bookmark-alt"></i>Bookmark</a> -->
 								  <a class="nav-link" id="v-pills-wwallete-tab" data-toggle="pill" href="#wwallete" role="tab" aria-controls="wwallete" aria-selected="false"><i class="ti-wallet"></i>Woner Wallete</a>
@@ -190,6 +184,11 @@
 		<!-- ============================================================== -->
 		<!-- End Wrapper -->
 		<!-- ============================================================== -->
+
+
+<!--  -->
+@include('admin.modals')
+<!--  -->
 
 		<!-- ============================================================== -->
 		<!-- All Jquery -->
